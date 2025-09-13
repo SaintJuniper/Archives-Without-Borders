@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Archives Without Borders",
+  "version": "1.0",
+  "description": "Modifies CSS on archive.today (https://archive.ph/) to remove the grey border around the content and replace the grey background with a white one.",
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["content.css"],
+      "run_at": "document_start"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+/* CSS Modification 1: Change background from #EEEEEE to #FFFFFF */
+div[style*="background-color:#EEEEEE"] {
+  background-color: #FFFFFF !important;
+}
+
+/* Alternative selector for the first modification - covers more cases */
+div[style*="padding:10px 0"][style*="min-width:1028px"][style*="background-color:#EEEEEE"] {
+  background-color: #FFFFFF !important;
+}
+
+/* CSS Modification 2: Remove border from CONTENT div */
+#CONTENT {
+  border: 0px !important;
+}
