@@ -6,8 +6,10 @@ A browser extension that improves readability on Archive.Today by removing visua
 
 This extension modifies CSS on [archive.today](https://archive.ph/) to:
 - Remove the grey border around content
-- Replace the grey background with white for better readability
-- Works best on websites with white backgrounds
+- Replace grey backgrounds with white for better readability
+- Make the header background white
+- Hide percentage indicators/progress elements that can be distracting
+- Overall improves readability and reduces visual clutter
 
 ## Compatibility
 

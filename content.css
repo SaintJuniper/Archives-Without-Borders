@@ -12,3 +12,23 @@ div[style*="padding:10px 0"][style*="min-width:1028px"][style*="background-color
 #CONTENT {
   border: 0px !important;
 }
+
+/* CSS Modification 3: Make HEADER background white */
+#HEADER {
+  background-color: #ffffff !important;
+}
+
+/* CSS Modification 4: Hide percentage elements */
+#\30 \% ,
+#\31 0\% ,
+#\32 0\% ,
+#\33 0\% ,
+#\34 0\% ,
+#\35 0\% ,
+#\36 0\% ,
+#\37 0\% ,
+#\38 0\% ,
+#\39 0\% ,
+#\31 00\% {
+  display: none !important;
+}
