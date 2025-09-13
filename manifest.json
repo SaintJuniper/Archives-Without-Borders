@@ -4,7 +4,6 @@
   "version": "1.0",
   "description": "Modifies CSS on archive.today (https://archive.ph/) to remove the grey border around the content and replace the grey background with a white one.",
   "icons": {
-    "16": "icon16.png",
     "48": "icon48.png",
     "128": "icon128.png"
   },
